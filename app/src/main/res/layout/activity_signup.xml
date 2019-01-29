@@ -25,7 +25,7 @@
         android:textColor="#000"
         android:textSize="40dp"
         android:layout_gravity="center"
-        android:fontFamily="@font/pacifico"
+        android:fontFamily="@font/amarante"
         android:gravity="center"/>
 
     <EditText
