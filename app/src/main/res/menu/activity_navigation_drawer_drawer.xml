@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myorder"
+            android:icon="@drawable/ic_tshirt"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_ratecard"
+            android:icon="@drawable/ic_credit_ratecard_black_24dp"
+            android:title="Rate Card" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_aboutus_black_24dp"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_TandC"
+            android:icon="@drawable/ic_terms_note_black_24dp"
+            android:title="Terms &amp; Conditions" />
+        <item
+            android:id="@+id/nav_customersupport"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="Customer Support" />
+        <item
+            android:id="@+id/nav_faqs"
+            android:icon="@drawable/ic_gaqs_bubble_outline_black_24dp"
+            android:title="FAQs" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_survey"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_sign_out"
+            android:title="Sign Out" />
+
+    </group>
+
+
+
+</menu>

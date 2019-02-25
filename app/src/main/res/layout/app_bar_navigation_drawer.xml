@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".NavigationDrawer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="320dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <Button
+            android:id="@+id/drycleaning"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Dry Cleaning"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/lato"
+
+            />
+        <Button
+            android:id="@+id/steamiron"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Steam Iron"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/lato"
+
+            />
+        <Button
+            android:id="@+id/washandsteam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Wash &amp; Steam Iron"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/lato"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="470dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+
+        >
+    <Button
+        android:id="@+id/shoespa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Shoe Spa"
+        android:textColor="#000"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/lato"
+
+        />
+    <Button
+        android:id="@+id/household"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Household Items"
+        android:textColor="#000"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/lato"
+
+        />
+    <Button
+        android:id="@+id/cauticclean"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Caustic Clean"
+        android:textColor="#000"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/lato"
+
+        />
+    </LinearLayout>
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_navigation_drawer" />
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtpActivity"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:textColor="#000"
+        android:layout_margin="10dp"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter OTP"
+        android:layout_below="@id/btn_generate_otp"
+        android:clickable="false"
+        android:textColor="#000"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btn_generate_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate OTP"
+        android:layout_below="@id/et_phone_number"
+        android:background="@color/orange"
+        android:textColor="#fff"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_below="@id/et_otp"
+        android:background="@color/orange"
+        android:textColor="#fff"
+        android:layout_margin="10dp"/>
+
+
+
+
+
+
+</RelativeLayout>

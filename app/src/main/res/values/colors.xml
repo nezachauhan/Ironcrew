@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#d3f1f9</color>
-    <color name="colorPrimaryDark">#d3f1f9</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="skyblue">#8cd3e6</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3f51b5</color>
+    <color name="colorblack">#000000</color>
+    <color name="colorsky">#2879db</color>
+    <color name="colorblue">#142ab7</color>
+    <color name="colorpur">#0f1171</color>
+    <color name="orange">#f49c4f</color>
 </resources>

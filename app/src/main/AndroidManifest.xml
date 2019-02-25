@@ -2,22 +2,51 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nezachauhan.ironcrew">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_foreground"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Loginactivity"></activity>
-        <activity android:name=".Splash">
+        <activity android:name=".Loginactivity">
+
+
+        </activity>
+        <activity android:name=".Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".Signup"></activity>
+        <activity android:name=".Signup" />
+        <activity android:name=".AfterLogin" />
+        <activity
+            android:name=".NavigationDrawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+        </activity>
+
+        <activity android:name=".PriceListdryclean" />
+        <activity android:name=".PricelistCaustic" />
+        <activity android:name=".PricelistSteamiron" />
+        <activity android:name=".PricelistShoespa" />
+        <activity android:name=".PricelistWashandsteam" />
+
+
+
+
+
+        <activity android:name=".OtpActivity" />
+        <activity
+            android:name=".SignActivity"
+            android:label="@string/title_activity_sign" />
+        <activity android:name=".PasswordActivity"></activity>
     </application>
 
 </manifest>
