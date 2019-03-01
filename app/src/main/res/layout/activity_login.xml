@@ -43,7 +43,7 @@
             android:hint="Username/Mobile No."
             android:inputType="textEmailAddress"
             android:drawableLeft="@drawable/ic_action_user"
-            android:background="@color/transparent"/>
+            android:background="@color/transperant"/>
 
     </android.support.design.widget.TextInputLayout>
 
@@ -59,10 +59,10 @@
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/transparent"
             android:drawableLeft="@drawable/ic_action_password"
             android:hint="Password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:background="@color/transperant"/>
 
     </android.support.design.widget.TextInputLayout>
 
