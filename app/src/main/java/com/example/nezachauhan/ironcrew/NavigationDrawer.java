@@ -45,51 +45,7 @@ public class NavigationDrawer extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        dryclean.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent SignupIntent = new Intent(NavigationDrawer.this, PriceListdryclean.class);
-                SignupIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(SignupIntent);
-                finish();
-            }
-        });
-        washandsteam.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent SignupIntent = new Intent(NavigationDrawer.this, PricelistSteamiron.class);
-                SignupIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(SignupIntent);
-                finish();
-            }
-        });
-        steamiron.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent SignupIntent = new Intent(NavigationDrawer.this, PricelistSteamiron.class);
-                SignupIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(SignupIntent);
-                finish();
-            }
-        });
-        shoespa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent SignupIntent = new Intent(NavigationDrawer.this, PricelistShoespa.class);
-                SignupIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(SignupIntent);
-                finish();
-            }
-        });
-        causticclean.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent SignupIntent = new Intent(NavigationDrawer.this, PricelistCaustic.class);
-                SignupIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(SignupIntent);
-                finish();
-            }
-        });
+
     }
 
     @Override
@@ -129,8 +85,11 @@ public class NavigationDrawer extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        if (id == R.id.storelocate) {
+            Intent LoginIntent = new Intent(NavigationDrawer.this, MapsActivity.class);
+            startActivity(LoginIntent);
 
-        if (id == R.id.nav_myorder) {
+        } else if (id == R.id.nav_myorder) {
             // Handle the camera action
         } else if (id == R.id.nav_profile) {
 

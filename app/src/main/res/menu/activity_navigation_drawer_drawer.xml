@@ -5,6 +5,11 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/storelocate"
+            android:icon="@drawable/ic_pin_drop_black_24dp"
+            android:title="Store Locator" />
+
+        <item
             android:id="@+id/nav_myorder"
             android:icon="@drawable/ic_tshirt"
             android:title="My Orders" />
